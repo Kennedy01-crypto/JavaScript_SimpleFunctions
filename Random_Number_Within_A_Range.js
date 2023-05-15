@@ -1,6 +1,6 @@
 //program to output the random numbers in a given range inclusive of both maximum and minimum
-let rangeStart = prompt("Enter lowest number;")
-let rangeEnd = prompt("Enter largest number;")
+let rangeStart = prompt("Enter lowest number;");
+let rangeEnd = prompt("Enter largest number;");
 
 function randomNumRange(min, max) {
     min = Math.ceil(min);
