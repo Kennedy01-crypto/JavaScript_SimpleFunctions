@@ -1,4 +1,4 @@
-//program to output the random numbers in a given range
+//program to output the random numbers in a given range inclusive of both maximum and minimum
 let rangeStart = prompt("Enter lowest number;")
 let rangeEnd = prompt("Enter largest number;")
 
