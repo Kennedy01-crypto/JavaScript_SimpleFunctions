@@ -1,6 +1,6 @@
 //A function that checks whether a passed String is a Palindrome or not
 function IsPalindrome(word){
-    if(typeof word == "string"){
+    if(typeof word == "string" && word !== "" ){
       let word2 = word.toLowerCase();
       let word3 = word2.split("").reverse("").join("");
 
