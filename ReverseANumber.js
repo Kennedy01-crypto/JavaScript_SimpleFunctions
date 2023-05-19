@@ -7,6 +7,7 @@ function MyReverseFunction(num) {
 //         num = Math.trunc(num/10);
 //     }
 //     return reverse;
+	//convert the number to string
     num = num + "";
 	return num.split("").reverse().join("");
 }
