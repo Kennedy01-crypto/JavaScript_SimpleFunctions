@@ -1,6 +1,6 @@
 //A function that checks whether a passed String is a Palindrome or not
 function IsPalindrome(word){
-    if(typeof word == "string" && word !== "" ){
+    if(typeof word == "string" && word !== "" && word !==" " ){
       let word2 = word.toLowerCase();
       let word3 = word2.split("").reverse("").join("");
 
@@ -10,6 +10,12 @@ function IsPalindrome(word){
       else(word3 !== word2);{
         return `FALSE: The word ${word} is NOT a Palindrome`;
       }
+    }
+    else if (word ==""){
+        return "You entered an empty String";
+    }
+    else if (word ==" "){
+        return "You entered nothing";
     }
     else{
       return "Error! NOT a string";
@@ -21,4 +27,5 @@ function IsPalindrome(word){
   console.log(IsPalindrome("Joy"));
   console.log(IsPalindrome("11eeye"));
   console.log(IsPalindrome(""));
+  console.log(IsPalindrome(" "));
   console.log(IsPalindrome("otto"));
