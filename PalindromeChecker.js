@@ -20,4 +20,5 @@ function IsPalindrome(word){
   console.log(IsPalindrome("MmadaMm"));
   console.log(IsPalindrome("Joy"));
   console.log(IsPalindrome("11eeye"));
+  console.log(IsPalindrome(""));
   console.log(IsPalindrome("otto"));
